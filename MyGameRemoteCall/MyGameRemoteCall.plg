@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyGameRemoteCall - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Enzo\AppData\Local\Temp\RSPA608.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyGameRemoteCall.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\WORKSPACE\VC6\MyGame\MyGameRemoteCall\MyGameRemoteCallDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Enzo\AppData\Local\Temp\RSPA608.tmp" 
+<h3>Output Window</h3>
+Compiling...
+MyGameRemoteCallDlg.cpp
+
+
+
+<h3>Results</h3>
+MyGameRemoteCallDlg.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

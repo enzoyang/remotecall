@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyGame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MyGame.res" /d "NDEBUG" /d "_AFXDLL" "D:\workspace\vc6\MyGame\MyGame.rc"" 
+Creating temporary file "C:\Users\Enzo\AppData\Local\Temp\RSP72EE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyGame.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\workspace\vc6\MyGame\MyGame.cpp"
+"D:\workspace\vc6\MyGame\MyGameDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Enzo\AppData\Local\Temp\RSP72EE.tmp" 
+Creating temporary file "C:\Users\Enzo\AppData\Local\Temp\RSP72EF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyGame.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\workspace\vc6\MyGame\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Enzo\AppData\Local\Temp\RSP72EF.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/MyGame.pdb" /machine:I386 /out:"Release/MyGame.exe"  .\Release\MyGame.obj .\Release\MyGameDlg.obj .\Release\StdAfx.obj .\Release\MyGame.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyGame.cpp
+MyGameDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyGame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
